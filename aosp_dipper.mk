@@ -20,6 +20,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_dipper
 PRODUCT_DEVICE := dipper
